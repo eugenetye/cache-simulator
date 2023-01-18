@@ -28,3 +28,6 @@ Each line denotes one or two memory accesses. The format of each line is
 **[space]operation address,size**
 
 The operation field denotes the type of memory access: “I” denotes an instruction load, “L” a data load, “S” a data store, and “M” a data modify (i.e., a data load followed by a data store). There is never a space before each “I”. There is always a space before each “M”, “L”, and “S”. The address field specifies a 64-b hexadecimal memory address. The size field specifies the number of bytes accessed by the operation.
+
+## Sample Output
+![alt text](https://github.com/eugenetye/cache-simulator/blob/master/Screen%20Shot%202023-01-18%20at%2012.41.05%20AM.png)
